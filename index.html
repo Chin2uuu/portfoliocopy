@@ -1,0 +1,188 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Satendra Kumar</title>
+    <script src="https://kit.fontawesome.com/972fffb410.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <section class="menu">
+        <button id="close-menu">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About-me</a>
+                </li>
+                <li><a href="#tech">Programming</a>
+                </li>
+                <li><a href="#web">Web</a>
+                </li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <header>
+
+        <nav class="default-nav">
+            <!-- <a href="#intro">Home</a> -->
+            <a href="#about-me">About-me</a>
+            <a href="#tech">Programming</a>
+            <a href="#web">Web</a>
+            <a href="#contact-me">Contact</a>
+        </nav>
+        <nav class="mobile-nav">
+            <button id="menu-button">Menu</button>
+        </nav>
+    </header>
+    <main class="hero">
+        <!-- <video autoplay loop muted plays-inline class="bkv">
+            <source src="/Pexels Videos 4552.mp4" type="video/mp4">
+        </video>
+        <div class="navi">
+            <nav>
+
+                <ul>
+                    <li>Home</li>
+                    <li>Projects</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+                <hr>
+            </nav> -->
+        <!-- </div> -->
+        <br>
+        <article id="intro" class="info">
+            <img id="profile-img" class="dp-image" width="250px" height="300px" src="/photo.jpg">
+
+
+            <h2 class="short-info">Hello, I'm Satendra </h2>
+            <p class="para">I am <span class="dynamic-text-color" id="dynamic-text"></span></p>
+            <h4 class="desc">I'm a Full Stack Developer with a serious passion for UI effects,<br> animations and
+                creating
+                user
+                experiences with highly scalable backend.</h4>
+
+
+
+            <div class="social-links">
+
+                <a href="https://www.linkedin.com/in/satendrakumar01/" target="_blank"><img class="png"
+                        src="linkedin.png"></a>
+                <a href="https://twitter.com/Chin2uuu_" target="_blank"><img class="png" src="/twitter.png"></a>
+                <a href="https://instagram.com/Chin2uuu_" target="_blank"><img class="png" src="./instagram.png   "></a>
+
+
+            </div>
+
+        </article>
+        <section id="about-me" class="about-me">
+            <h2> About me <br>
+                <h4 class="aboutme">
+                    I'm an undergraduate in B-Tech <br> Electronics and Communication and from RD Engineering College,
+                    Ghaziabad<br> with current grade point of 7.5
+                    Currently I'm learning MERN stack but also want to explore my potential in Machine Learning and
+                    Artificial
+                    Intelligence. </h4>
+            </h2>
+        </section>
+        <br>
+        <hr>
+        <section id="qualifications">
+            <h2>Qualification</h2>
+            <ul>
+                <li>B.Tech Electronics and Communication</li>
+                <!-- <li>CDAC - Wireless and Mobile Computing</li> -->
+            </ul>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Current Affairs</li>
+                <li>New Technologies</li>
+                <li>Fitness</li>
+            </ul>
+        </section>
+        <section id="tech" class="Skill-set">
+            <h2>Programming Language</h2>
+
+            <p class="list">
+
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>Dart</li>
+            </ul>
+
+
+            </p>
+        </section>
+        <section class="hobbies">
+            <h2>Interestes</h2>
+
+            <ul class="list">
+                <li>Current Affairs</li>
+                <li>Technologies</li>
+                <li>Exploring New Places</li>
+
+
+            </ul>
+        </section>
+        <section id="web">
+            <h2>Technologies</h2>
+            <table>
+                <tr>
+                    <th>Frontend</th>
+                    <th>Backend</th>
+                    <th>Database</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>NodeJS</td>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Rails</td>
+                    <td>Mongo DB</td>
+                </tr>
+                <tr>
+                    <td>JS</td>
+                    <td>Asp.NET</td>
+                    <td>Postgres</td>
+                </tr>
+            </table>
+        </section>
+
+
+
+        <section id="contact-me">
+            <form name="contact" id="contact" method="POST" data-netlify="true">
+                <h1>Contact Me</h1>
+                <section>
+                    <label for="firstName">First name</label>
+                    <input type="text" name="firstName" id="firstName" required />
+                </section>
+                <section>
+                    <label for="lastName">Last name</label>
+                    <input type="text" name="lastName" id="lastName" required />
+                </section>
+                <section>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"> </textarea>
+                </section>
+                <button id="send" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Made with ❤️ by Satendra ©2022
+    </footer>
+    <script src="/main.js"></script>
+    <script src="/menu.js"></script>
+
+</body>
+
+</html>
